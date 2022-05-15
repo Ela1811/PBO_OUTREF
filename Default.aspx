@@ -11,7 +11,7 @@
             border-radius: 20px;
             padding: 10px;
             color: white;
-            border: none;
+/*            border: none;*/
         }
         #btnUpdation {
             background-color: rgb(71 146 119);
