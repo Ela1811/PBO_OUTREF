@@ -11,7 +11,7 @@ namespace Tugas_PBO
 {
 
 
-    public partial class Suster
+    public partial class Dokter
     {
 
         /// <summary>
@@ -24,13 +24,13 @@ namespace Tugas_PBO
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// txtSusterID control.
+        /// txtDokterID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSusterID;
+        protected global::System.Web.UI.WebControls.TextBox txtDokterID;
 
         /// <summary>
         /// txtNama control.
@@ -114,13 +114,13 @@ namespace Tugas_PBO
         protected global::System.Web.UI.WebControls.GridView GridView1;
 
         /// <summary>
-        /// txtSustID control.
+        /// txtDokterID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSustID;
+        protected global::System.Web.UI.WebControls.TextBox txtDokterID;
 
         /// <summary>
         /// btnDelete control.

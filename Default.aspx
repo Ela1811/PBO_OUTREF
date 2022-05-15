@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Tugas_PBO.Suster" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Tugas_PBO.Dokter" %>
 
 <!DOCTYPE html>
 
@@ -11,7 +11,7 @@
             border-radius: 20px;
             padding: 10px;
             color: white;
-/*            border: none;*/
+            border: none;
         }
         #btnUpdation {
             background-color: rgb(71 146 119);
@@ -64,8 +64,8 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style7"><p align="right">Suster ID&nbsp;&nbsp;&nbsp; </p></td>
-                    <td class="auto-style1">:&nbsp;&nbsp;<asp:TextBox ID="txtSusterID" runat="server"></asp:TextBox>
+                    <td class="auto-style7"><p align="right">ID Dokter&nbsp;&nbsp;&nbsp; </p></td>
+                    <td class="auto-style1">:&nbsp;&nbsp;<asp:TextBox ID="txtDokterID" runat="server"></asp:TextBox>
                     </td>
                     <td>
                         &nbsp;</td>
@@ -118,7 +118,7 @@
             <table>
                 <tr>
                     <td class="auto-style5">
-                        <center><h1 class="auto-style4">Show all Suster Data</h1></center>
+                        <center><h1 class="auto-style4">Show all Doctor's Data</h1></center>
                     </td>
                 </tr>
                 <tr>
@@ -139,8 +139,8 @@
                     <td colspan="3">
                         <center><h1>Delete Account</tr> <tr></center>
                     <tr>
-                    <td class="auto-style7"><p align="right">Suster ID&nbsp;&nbsp;&nbsp; </p></td>
-                    <td class="auto-style1">:&nbsp;&nbsp;<asp:TextBox ID="txtSustID" runat="server"></asp:TextBox>
+                    <td class="auto-style7"><p align="right">ID Dokter&nbsp;&nbsp;&nbsp; </p></td>
+                    <td class="auto-style1">:&nbsp;&nbsp;<asp:TextBox ID="txtDokterID" runat="server"></asp:TextBox>
                     </td>
                         <br />
                     </td>
